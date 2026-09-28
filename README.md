@@ -17,3 +17,20 @@
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
+---
+
+### 🚀 About Me
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│  Hi, I'm Wahyu! 🕹️                                           │
+│  Software & Game QA Specialist based in Bekasi, Indonesia.   │
+│  Passionate about breaking software to make it perfect!      │
+└──────────────────────────────────────────────────────────────┘
+🎮 Main Focus: Quality Assurance (QA) untuk Game & Aplikasi Software (Testing, Bug Hunting, & Security).
+
+🛠️ Tech & Tools: Python, Git, VS Code, Manual & Automated Testing.
+
+💡 Current Exploration: AI, App Development, & Advanced Software Testing Frameworks.
+
+🤝 Open For: Kolaborasi project software/game dev atau tawaran kerja sama seru!
