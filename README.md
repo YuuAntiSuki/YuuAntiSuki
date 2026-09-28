@@ -1,7 +1,7 @@
 <!-- Pembatas Lampu RGB atas -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <h1 align="center">Hai, Gw Wahyu! 👋</h1>
-<p align="center"><b>A Professional QA-Game and Software</b></p>
+<p align="center"><b>A Professional QA-Game, Software, and App Builder</b></p>
 
 <!-- Typing SVG -->
 <p align="center">
