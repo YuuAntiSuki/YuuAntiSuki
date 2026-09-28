@@ -1,4 +1,4 @@
-<h1 align="center">Hai, Gw YuuAntiSuki! 👋</h1>
+<h1 align="center">Hai, Gw Wahyu! 👋</h1>
 <p align="center"><b>A Professional QA-Game and Software</b></p>
 
 <p align="center">
