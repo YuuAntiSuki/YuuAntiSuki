@@ -67,19 +67,3 @@ const me = {
 </p>
 
 <!-- Pembatas Lampu RGB Light 2 -->
-<!-- Judul Mini Chess Match -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=1&pause=1000&color=00F0FF&center=true&vCenter=true&width=450&height=50&lines=%E2%99%9F+AUTO-PLAYING+CHESS+MATCH+%E2%99%9F" alt="CHESS MATCH" />
-</p>
-
-<!-- Board Catur Otomatis Main Sendiri (Anti-Blank) -->
-<p align="center">
-  <picture>
-    <source type="video/webm" srcset="https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/Immortal_game.gif/Immortal_game.gif.360p.webm">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Immortal_game.gif" width="320px" alt="Auto Playing Chess Match" />
-  </picture>
-  <br><br>
-  <sub><b>&nbsp;&nbsp;&nbsp;&nbsp;♟️ Tactical Match Simulation — Out of the Box Checkmate Progress</b></sub>
-</p>
-
-<!-- Pembatas Lampu RGB Light 3 -->
