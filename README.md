@@ -42,7 +42,7 @@ const me = {
   role: "QA Game & Software Specialist",
   location: "Bogor, Indonesia",
   focus: ["Software Testing", "Game QA", "Bug Hunting", "Security"],
-  stack: ["Python", "Git", "VS Code", "Manual & Automated Testing"],
+  stack: ["C++", "Python", "Git", "VS Code", "Manual & Automated Testing"],
   learningMindset: true,
   hobbies: ["Gaming", "Exploring AI", "Chess"],
   quote: "Break the software today to make it unbreakable tomorrow."
