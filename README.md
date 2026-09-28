@@ -76,7 +76,12 @@ const me = {
 
 <!-- Pembatas Lampu RGB Light -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
+<!-- Discord & Spotify Live Status -->
+<p align="center">
+  <a href="https://discord.com/users/737506130913132554">
+    <img src="https://lanyard.cnrad.dev/api/737506130913132554?theme=dark&bg=0d1117&borderRadius=10px&showAnimatedAvatar=true" alt="Discord & Spotify Status" />
+  </a>
+</p>
 <!-- Pembatas Lampu RGB Light -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <details>
