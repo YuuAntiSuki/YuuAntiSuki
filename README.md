@@ -66,7 +66,7 @@ const me = {
   <img src="https://media1.tenor.com/m/zZVdA3BMrSkAAAAC/special-week-dance.gif" width="150px" alt="Special Week Kuning" />
 </p>
 
-<!-- Pembatas Lampu RGB Light 3 -->
+<!-- Pembatas Lampu RGB Light -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- Auto Playing Chess Match -->
@@ -74,5 +74,5 @@ const me = {
   <img src="./chess.svg" width="380px" alt="My Favorite Game Chess" />
 </p>
 
-<!-- Pembatas Lampu RGB Light 4 -->
+<!-- Pembatas Lampu RGB Light -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
