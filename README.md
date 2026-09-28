@@ -1,3 +1,4 @@
+<img width="148" height="200" alt="tm-opera-o-uma-musume" src="https://github.com/user-attachments/assets/67591cb4-f5eb-41ff-b6a2-3233f017b346" />
 <!-- Pembatas Lampu RGB atas -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <h1 align="center">Hai, Gw Wahyu! 👋</h1>
@@ -49,15 +50,18 @@ const me = {
 };
 ```
 
-<!-- Pembatas Lampu RGB Light -->
-<img src="[https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)" width="100%">
+<!-- Pembatas Lampu RGB Light 1 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- Judul UMAMUSUME LOVERS (Teks RGB / Animated) -->
 <p align="center">
-  <img src="[https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=FF1493&center=true&vCenter=true&width=450&height=50&lines=%E2%9C%A8+UMAMUSUME+LOVERS+%E2%9C%A8](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=FF1493&center=true&vCenter=true&width=450&height=50&lines=%E2%9C%A8+UMAMUSUME+LOVERS+%E2%9C%A8)" alt="UMAMUSUME LOVERS" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=25&pause=1000&color=FF007F&center=true&vCenter=true&width=450&height=50&lines=%E2%9C%A8+UMAMUSUME+LOVERS+%E2%9C%A8" alt="UMAMUSUME LOVERS" />
 </p>
 
-<!-- T.M. Opera O Muter-Muter Otomatis -->
+<!-- T.M. Opera O Muter-Muter -->
 <p align="center">
-  <img src="[https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnY5aDF2NnVpMXBwbjRzbmlwYm1oZjZnbW1scXJ6NnVscXdqNXVkZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tm_opera_o/giphy.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnY5aDF2NnVpMXBwbjRzbmlwYm1oZjZnbW1scXJ6NnVscXdqNXVkZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tm_opera_o/giphy.gif)" width="180px" alt="T.M. Opera O Spinning" />
+  <img src="https://media.tenor.com/KjjglIDqVEcAAAAj/tm-opera-o-uma-musume.gif" width="180px" alt="T.M. Opera O" />
 </p>
+
+<!-- Pembatas Lampu RGB Light 2 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
