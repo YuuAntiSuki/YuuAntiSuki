@@ -1,4 +1,3 @@
-<img width="148" height="200" alt="tm-opera-o-uma-musume" src="https://github.com/user-attachments/assets/67591cb4-f5eb-41ff-b6a2-3233f017b346" />
 <!-- Pembatas Lampu RGB atas -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <h1 align="center">Hai, Gw Wahyu! 👋</h1>
