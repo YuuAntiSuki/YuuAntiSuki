@@ -1,16 +1,19 @@
-## Hi there 👋
+<h1 align="center">Hai, YuuAntiSuki! 👋</h1>
+<p align="center"><b>A Professional QA-Game and Software</b></p>
 
-<!--
-**YuuAntiSuki/YuuAntiSuki** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F70000&center=true&vCenter=true&width=435&lines=Selamat+datang+di+profil+saya!;Saya+suka+mengeksplorasi+AI+dan+Tech" alt="Typing SVG" />
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://img.shields.io/badge/Location-Bekasi-blue?style=for-the-badge&logo=googlemaps" />
+  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+  <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+<h3 align="center">📊 Waktu & Jam Coding Saya (WakaTime)</h3>
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
