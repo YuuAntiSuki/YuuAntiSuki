@@ -52,9 +52,9 @@ const me = {
 <!-- Pembatas Lampu RGB Light 1 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- Judul UMAMUSUME LOVERS (Teks RGB / Animated) -->
+<!-- Judul UMAMUSUME LOVERS (Tanpa Emot & Warna RGB Ganti-Ganti) -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=25&pause=1000&color=FF007F&center=true&vCenter=true&width=450&height=50&lines=%E2%9C%A8+UMAMUSUME+LOVERS+%E2%9C%A8" alt="UMAMUSUME LOVERS" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&color=timeGradient&text=UMAMUSUME%20LOVERS&fontSize=28&fontAlignY=50&height=60" alt="UMAMUSUME LOVERS" />
 </p>
 
 <!-- T.M. Opera O Muter-Muter -->
