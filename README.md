@@ -67,7 +67,6 @@ const me = {
 </p>
 
 <!-- Pembatas Lampu RGB Light 2 -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- Judul Mini Chess Match -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=1&pause=1000&color=00F0FF&center=true&vCenter=true&width=450&height=50&lines=%E2%99%9F+AUTO-PLAYING+CHESS+MATCH+%E2%99%9F" alt="CHESS MATCH" />
@@ -75,9 +74,9 @@ const me = {
 
 <!-- Board Catur Otomatis Main Sendiri -->
 <p align="center">
-  <img src="https://media.giphy.com/media/L1R1tvI9svv20Nv728/giphy.gif" width="360px" alt="Auto Playing Chess Match" />
-  <br>
-  <sub><b>🤖 Bot vs Bot — Tactical Match in Progress...</b></sub>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Immortal_game.gif" width="320px" alt="Auto Playing Chess Match" />
+  <br><br>
+  <sub><b>♟️ Tactical Match Simulation — Out of the Box Checkmate Progress</b></sub>
 </p>
 
 <!-- Pembatas Lampu RGB Light 4 -->
