@@ -1,7 +1,7 @@
 <h1 align="center">Hai, Gw Wahyu! 👋</h1>
 <p align="center"><b>A Professional QA-Game and Software</b></p>
 
-<!-- Typing SVG (Width & Height disesuaikan agar tidak terpotong) -->
+<!-- Typing SVG -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F70000&center=true&vCenter=true&width=650&height=50&lines=Selamat+datang+Cuy+Gwe+Wahyu;Gw+suka+membuat+Apps;Yok+Buat+Deal+Terbaik+Lo+Dengan+Gw" alt="Typing SVG" />
 </p>
@@ -21,6 +21,6 @@
 ```text
 ┌──────────────────────────────────────────────────────────────┐
 │  Hi, I'm Wahyu! 🕹️                                           │
-│  Software & Game QA Specialist based in Bogor, Indonesia.   │
+│  Software & Game QA Specialist based in Bogor, Indonesia.    │
 │  Passionate about breaking software to make it perfect!      │
 └──────────────────────────────────────────────────────────────┘
