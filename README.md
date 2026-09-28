@@ -52,14 +52,18 @@ const me = {
 <!-- Pembatas Lampu RGB Light 1 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- Judul UMAMUSUME LOVERS (Pure RGB Color-Shifting, Tanpa Ngetik, Tanpa Emot) -->
+<!-- Judul UMAMUSUME LOVERS -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=1&pause=1000&color=FF0055&center=true&vCenter=true&width=430&height=50&lines=UMAMUSUME+LOVERS" alt="UMAMUSUME LOVERS" />
 </p>
 
-<!-- T.M. Opera O Muter-Muter -->
+<!-- Trio Umamusume (Kiri: Special Week, Tengah: T.M. Opera O, Kanan: Special Week Dance) -->
 <p align="center">
-  <img src="https://media.tenor.com/KjjglIDqVEcAAAAj/tm-opera-o-uma-musume.gif" width="180px" alt="T.M. Opera O" />
+  <img src="https://media1.tenor.com/m/UKcb7FZdqa0AAAAd/umamusume-special-week.gif" width="150px" alt="Special Week Merah" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://media.tenor.com/KjjglIDqVEcAAAAj/tm-opera-o-uma-musume.gif" width="150px" alt="T.M. Opera O" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://media1.tenor.com/m/zZVdA3BMrSkAAAAC/special-week-dance.gif" width="150px" alt="Special Week Kuning" />
 </p>
 
 <!-- Pembatas Lampu RGB Light 2 -->
