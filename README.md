@@ -2,7 +2,7 @@
 <p align="center"><b>A Professional QA-Game and Software</b></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F70000&center=true&vCenter=true&width=435&lines=Selamat+datang+Cuy+Gwe+Wahyu;Saya+suka+membuat+Apps+Functional+Pake+Ai" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F70000&center=true&vCenter=true&width=435&lines=Selamat+datang+Cuy+Gwe+Wahyu;Gweh+suka+membuat+Apps+Functional" alt="Typing SVG" />
 </p>
 
 <p align="center">
