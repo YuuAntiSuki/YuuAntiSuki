@@ -52,9 +52,9 @@ const me = {
 <!-- Pembatas Lampu RGB Light 1 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- Judul UMAMUSUME LOVERS (Color Shifting RGB, Tanpa Ngetik, Tanpa Emot) -->
+<!-- Judul UMAMUSUME LOVERS (Pure RGB Color-Shifting, Tanpa Ngetik, Tanpa Emot) -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&color=timeGradient&text=UMAMUSUME%20LOVERS&fontSize=30&fontAlignY=50&height=60" alt="UMAMUSUME LOVERS" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=1&pause=1000&color=FF0055&center=true&vCenter=true&width=430&height=50&lines=UMAMUSUME+LOVERS" alt="UMAMUSUME LOVERS" />
 </p>
 
 <!-- T.M. Opera O Muter-Muter -->
