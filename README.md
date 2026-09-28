@@ -69,9 +69,9 @@ const me = {
 <!-- Pembatas Lampu RGB Light 3 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- Auto Playing Pure SVG Chess -->
+<!-- Auto Playing Chess Match -->
 <p align="center">
-  <img src="./chess.svg" width="360px" alt="Auto Playing Chess Match" />
+  <img src="./chess.svg" width="380px" alt="My Favorite Game Chess" />
 </p>
 
 <!-- Pembatas Lampu RGB Light 4 -->
