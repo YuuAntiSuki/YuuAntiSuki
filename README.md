@@ -66,4 +66,13 @@ const me = {
   <img src="https://media1.tenor.com/m/zZVdA3BMrSkAAAAC/special-week-dance.gif" width="150px" alt="Special Week Kuning" />
 </p>
 
-<!-- Pembatas Lampu RGB Light 2 -->
+<!-- Pembatas Lampu RGB Light 3 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- Auto Playing Pure SVG Chess -->
+<p align="center">
+  <img src="./chess.svg" width="360px" alt="Auto Playing Chess Match" />
+</p>
+
+<!-- Pembatas Lampu RGB Light 4 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
