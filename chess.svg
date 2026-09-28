@@ -1,99 +1,128 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" width="100%">
   <defs>
     <style>
-      .bg { fill: #0d1117; rx: 12px; }
+      .bg { fill: #0d1117; rx: 14px; }
       .board-light { fill: #eeeed2; }
       .board-dark { fill: #769656; }
       .board-border { fill: none; stroke: #00F0FF; stroke-width: 2px; }
-      .title { fill: #00F0FF; font-family: 'Fira Code', monospace; font-size: 18px; font-weight: 800; text-anchor: middle; }
+      .title { fill: #00F0FF; font-family: 'Fira Code', monospace; font-size: 16px; font-weight: 800; text-anchor: middle; }
       .sub { fill: #8b949e; font-family: 'Fira Code', monospace; font-size: 11px; text-anchor: middle; }
-      .piece { font-size: 28px; text-anchor: middle; dominant-baseline: central; font-family: sans-serif; }
+      .piece { font-size: 28px; text-anchor: middle; dominant-baseline: central; font-family: sans-serif; transition: all 0.5s ease; }
       
-      /* Pure CSS Keyframes Animation for Moves */
-      @keyframes moveE2E4 {
-        0%, 10% { transform: translate(0px, 0px); }
-        20%, 85% { transform: translate(0px, -80px); }
-        95%, 100% { transform: translate(0px, 0px); }
+      /* Badges & Banners */
+      .tag-italian { fill: #FF0055; font-family: 'Fira Code', monospace; font-size: 12px; font-weight: 700; text-anchor: middle; }
+      .banner-bg { fill: #FF0055; rx: 8px; }
+      .banner-text { fill: #FFFFFF; font-family: 'Fira Code', monospace; font-size: 16px; font-weight: 900; text-anchor: middle; }
+
+      /* Keyframe Animations (22s Total Loop) */
+      /* 1. White Pawn e2 -> e4 */
+      @keyframes animE2 {
+        0%, 4% { transform: translate(0, 0); opacity: 1; }
+        7%, 58% { transform: translate(0, -80px); opacity: 1; }
+        61%, 95% { transform: translate(0, -80px); opacity: 0; } /* Captured by Queen */
+        98%, 100% { transform: translate(0, 0); opacity: 1; }
       }
-      @keyframes moveC7C5 {
-        0%, 25% { transform: translate(0px, 0px); }
-        35%, 85% { transform: translate(0px, 80px); }
-        95%, 100% { transform: translate(0px, 0px); }
+      /* 2. Black Pawn e7 -> e5 */
+      @keyframes animE7 {
+        0%, 9% { transform: translate(0, 0); opacity: 1; }
+        12%, 33% { transform: translate(0, 80px); opacity: 1; }
+        36%, 95% { transform: translate(0, 80px); opacity: 0; } /* Captured by Knight */
+        98%, 100% { transform: translate(0, 0); opacity: 1; }
       }
-      @keyframes moveG1F3 {
-        0%, 40% { transform: translate(0px, 0px); }
-        50%, 85% { transform: translate(-40px, -80px); }
-        95%, 100% { transform: translate(0px, 0px); }
+      /* 3. White Knight g1 -> f3 -> e5 -> f7 */
+      @keyframes animNg1 {
+        0%, 14% { transform: translate(0, 0); }
+        17%, 33% { transform: translate(-40px, -80px); } /* f3 */
+        36%, 42% { transform: translate(-80px, -160px); } /* e5 (takes e5) */
+        45%, 95% { transform: translate(-40px, -240px); } /* f7 (takes f7) */
+        98%, 100% { transform: translate(0, 0); }
       }
-      @keyframes moveB8C6 {
-        0%, 55% { transform: translate(0px, 0px); }
-        65%, 85% { transform: translate(40px, 80px); }
-        95%, 100% { transform: translate(0px, 0px); }
+      /* 4. Black Knight b8 -> c6 -> d4 -> f3 (CHECKMATE!) */
+      @keyframes animNb8 {
+        0%, 19% { transform: translate(0, 0); }
+        22%, 28% { transform: translate(40px, 80px); } /* c6 */
+        31%, 67% { transform: translate(80px, 160px); } /* d4 */
+        70%, 95% { transform: translate(160px, 200px); } /* f3# Checkmate! */
+        98%, 100% { transform: translate(0, 0); }
+      }
+      /* 5. White Bishop f1 -> c4 (ITALIAN) -> e2 */
+      @keyframes animBf1 {
+        0%, 24% { transform: translate(0, 0); }
+        27%, 62% { transform: translate(-120px, -120px); } /* c4 Italian Opening */
+        65%, 95% { transform: translate(-40px, -40px); } /* e2 */
+        98%, 100% { transform: translate(0, 0); }
+      }
+      /* 6. Black Queen d8 -> g5 -> g2 -> e4 */
+      @keyframes animQd8 {
+        0%, 38% { transform: translate(0, 0); }
+        41%, 47% { transform: translate(120px, 120px); } /* g5 */
+        50%, 57% { transform: translate(120px, 240px); } /* g2 (takes g2) */
+        60%, 95% { transform: translate(40px, 160px); } /* e4+ (takes e4) */
+        98%, 100% { transform: translate(0, 0); }
+      }
+      /* 7. Black Pawn f7 (Captured by Knight) */
+      @keyframes animF7 {
+        0%, 42% { opacity: 1; }
+        45%, 95% { opacity: 0; }
+        98%, 100% { opacity: 1; }
+      }
+      /* 8. White Pawn g2 (Captured by Queen) */
+      @keyframes animG2 {
+        0%, 47% { opacity: 1; }
+        50%, 95% { opacity: 0; }
+        98%, 100% { opacity: 1; }
+      }
+      /* 9. White Rook h1 -> f1 */
+      @keyframes animRh1 {
+        0%, 52% { transform: translate(0, 0); }
+        55%, 95% { transform: translate(-80px, 0); } /* f1 */
+        98%, 100% { transform: translate(0, 0); }
+      }
+      /* Italian Opening Tag Indicator */
+      @keyframes animItalianTag {
+        0%, 25% { opacity: 0; }
+        27%, 65% { opacity: 1; }
+        68%, 100% { opacity: 0; }
+      }
+      /* Checkmate Banner Animation */
+      @keyframes animMateBanner {
+        0%, 70% { opacity: 0; transform: scale(0.7); }
+        73%, 94% { opacity: 1; transform: scale(1); }
+        97%, 100% { opacity: 0; transform: scale(0.7); }
       }
 
-      .pawn-e2 { animation: moveE2E4 8s infinite ease-in-out; }
-      .pawn-c7 { animation: moveC7C5 8s infinite ease-in-out; }
-      .knight-g1 { animation: moveG1F3 8s infinite ease-in-out; }
-      .knight-b8 { animation: moveB8C6 8s infinite ease-in-out; }
+      .pawn-e2 { animation: animE2 22s infinite ease-in-out; }
+      .pawn-e7 { animation: animE7 22s infinite ease-in-out; }
+      .knight-g1 { animation: animNg1 22s infinite ease-in-out; }
+      .knight-b8 { animation: animNb8 22s infinite ease-in-out; }
+      .bishop-f1 { animation: animBf1 22s infinite ease-in-out; }
+      .queen-d8 { animation: animQd8 22s infinite ease-in-out; }
+      .pawn-f7 { animation: animF7 22s infinite ease-in-out; }
+      .pawn-g2 { animation: animG2 22s infinite ease-in-out; }
+      .rook-h1 { animation: animRh1 22s infinite ease-in-out; }
+      .tag-italian-node { animation: animItalianTag 22s infinite ease-in-out; }
+      .checkmate-banner { animation: animMateBanner 22s infinite ease-in-out; transform-origin: center; }
     </style>
   </defs>
 
   <!-- Background Card -->
   <rect width="100%" height="100%" class="bg" />
 
-  <!-- Title -->
-  <text x="200" y="32" class="title">♟ AUTO CHESS MATCH ♟</text>
+  <!-- Header Title -->
+  <text x="200" y="30" class="title">♟ ITALIAN GAME: AUTO MATCH ♟</text>
+  <text x="200" y="46" class="tag-italian tag-italian-node">🇮🇹 1.e4 e5 2.Nf3 Nc6 3.Bc4 (Italian Opening)</text>
 
-  <!-- Board 8x8 -->
-  <g transform="translate(40, 50)">
-    <!-- Board Squares -->
-    <!-- Row 8 -->
-    <rect x="0" y="0" width="40" height="40" class="board-light"/><rect x="40" y="0" width="40" height="40" class="board-dark"/>
-    <rect x="80" y="0" width="40" height="40" class="board-light"/><rect x="120" y="0" width="40" height="40" class="board-dark"/>
-    <rect x="160" y="0" width="40" height="40" class="board-light"/><rect x="200" y="0" width="40" height="40" class="board-dark"/>
-    <rect x="240" y="0" width="40" height="40" class="board-light"/><rect x="280" y="0" width="40" height="40" class="board-dark"/>
-
-    <!-- Row 7 -->
-    <rect x="0" y="40" width="40" height="40" class="board-dark"/><rect x="40" y="40" width="40" height="40" class="board-light"/>
-    <rect x="80" y="40" width="40" height="40" class="board-dark"/><rect x="120" y="40" width="40" height="40" class="board-light"/>
-    <rect x="160" y="40" width="40" height="40" class="board-dark"/><rect x="200" y="40" width="40" height="40" class="board-light"/>
-    <rect x="240" y="40" width="40" height="40" class="board-dark"/><rect x="280" y="40" width="40" height="40" class="board-light"/>
-
-    <!-- Row 6 -->
-    <rect x="0" y="80" width="40" height="40" class="board-light"/><rect x="40" y="80" width="40" height="40" class="board-dark"/>
-    <rect x="80" y="80" width="40" height="40" class="board-light"/><rect x="120" y="80" width="40" height="40" class="board-dark"/>
-    <rect x="160" y="80" width="40" height="40" class="board-light"/><rect x="200" y="80" width="40" height="40" class="board-dark"/>
-    <rect x="240" y="80" width="40" height="40" class="board-light"/><rect x="280" y="80" width="40" height="40" class="board-dark"/>
-
-    <!-- Row 5 -->
-    <rect x="0" y="120" width="40" height="40" class="board-dark"/><rect x="40" y="120" width="40" height="40" class="board-light"/>
-    <rect x="80" y="120" width="40" height="40" class="board-dark"/><rect x="120" y="120" width="40" height="40" class="board-light"/>
-    <rect x="160" y="120" width="40" height="40" class="board-dark"/><rect x="200" y="120" width="40" height="40" class="board-light"/>
-    <rect x="240" y="120" width="40" height="40" class="board-dark"/><rect x="280" y="120" width="40" height="40" class="board-light"/>
-
-    <!-- Row 4 -->
-    <rect x="0" y="160" width="40" height="40" class="board-light"/><rect x="40" y="160" width="40" height="40" class="board-dark"/>
-    <rect x="80" y="160" width="40" height="40" class="board-light"/><rect x="120" y="160" width="40" height="40" class="board-dark"/>
-    <rect x="160" y="160" width="40" height="40" class="board-light"/><rect x="200" y="160" width="40" height="40" class="board-dark"/>
-    <rect x="240" y="160" width="40" height="40" class="board-light"/><rect x="280" y="160" width="40" height="40" class="board-dark"/>
-
-    <!-- Row 3 -->
-    <rect x="0" y="200" width="40" height="40" class="board-dark"/><rect x="40" y="200" width="40" height="40" class="board-light"/>
-    <rect x="80" y="200" width="40" height="40" class="board-dark"/><rect x="120" y="200" width="40" height="40" class="board-light"/>
-    <rect x="160" y="200" width="40" height="40" class="board-dark"/><rect x="200" y="200" width="40" height="40" class="board-light"/>
-    <rect x="240" y="200" width="40" height="40" class="board-dark"/><rect x="280" y="200" width="40" height="40" class="board-light"/>
-
-    <!-- Row 2 -->
-    <rect x="0" y="240" width="40" height="40" class="board-light"/><rect x="40" y="240" width="40" height="40" class="board-dark"/>
-    <rect x="80" y="240" width="40" height="40" class="board-light"/><rect x="120" y="240" width="40" height="40" class="board-dark"/>
-    <rect x="160" y="240" width="40" height="40" class="board-light"/><rect x="200" y="240" width="40" height="40" class="board-dark"/>
-    <rect x="240" y="240" width="40" height="40" class="board-light"/><rect x="280" y="240" width="40" height="40" class="board-dark"/>
-
-    <!-- Row 1 -->
-    <rect x="0" y="280" width="40" height="40" class="board-dark"/><rect x="40" y="280" width="40" height="40" class="board-light"/>
-    <rect x="80" y="280" width="40" height="40" class="board-dark"/><rect x="120" y="280" width="40" height="40" class="board-light"/>
-    <rect x="160" y="280" width="40" height="40" class="board-dark"/><rect x="200" y="280" width="40" height="40" class="board-light"/>
-    <rect x="240" y="280" width="40" height="40" class="board-dark"/><rect x="280" y="280" width="40" height="40" class="board-light"/>
+  <!-- Board 8x8 (Translate to Center) -->
+  <g transform="translate(40, 60)">
+    <!-- Squares Matrix -->
+    <rect x="0" y="0" width="40" height="40" class="board-light"/><rect x="40" y="0" width="40" height="40" class="board-dark"/><rect x="80" y="0" width="40" height="40" class="board-light"/><rect x="120" y="0" width="40" height="40" class="board-dark"/><rect x="160" y="0" width="40" height="40" class="board-light"/><rect x="200" y="0" width="40" height="40" class="board-dark"/><rect x="240" y="0" width="40" height="40" class="board-light"/><rect x="280" y="0" width="40" height="40" class="board-dark"/>
+    <rect x="0" y="40" width="40" height="40" class="board-dark"/><rect x="40" y="40" width="40" height="40" class="board-light"/><rect x="80" y="40" width="40" height="40" class="board-dark"/><rect x="120" y="40" width="40" height="40" class="board-light"/><rect x="160" y="40" width="40" height="40" class="board-dark"/><rect x="200" y="40" width="40" height="40" class="board-light"/><rect x="240" y="40" width="40" height="40" class="board-dark"/><rect x="280" y="40" width="40" height="40" class="board-light"/>
+    <rect x="0" y="80" width="40" height="40" class="board-light"/><rect x="40" y="80" width="40" height="40" class="board-dark"/><rect x="80" y="80" width="40" height="40" class="board-light"/><rect x="120" y="80" width="40" height="40" class="board-dark"/><rect x="160" y="80" width="40" height="40" class="board-light"/><rect x="200" y="80" width="40" height="40" class="board-dark"/><rect x="240" y="80" width="40" height="40" class="board-light"/><rect x="280" y="80" width="40" height="40" class="board-dark"/>
+    <rect x="0" y="120" width="40" height="40" class="board-dark"/><rect x="40" y="120" width="40" height="40" class="board-light"/><rect x="80" y="120" width="40" height="40" class="board-dark"/><rect x="120" y="120" width="40" height="40" class="board-light"/><rect x="160" y="120" width="40" height="40" class="board-dark"/><rect x="200" y="120" width="40" height="40" class="board-light"/><rect x="240" y="120" width="40" height="40" class="board-dark"/><rect x="280" y="120" width="40" height="40" class="board-light"/>
+    <rect x="0" y="160" width="40" height="40" class="board-light"/><rect x="40" y="160" width="40" height="40" class="board-dark"/><rect x="80" y="160" width="40" height="40" class="board-light"/><rect x="120" y="160" width="40" height="40" class="board-dark"/><rect x="160" y="160" width="40" height="40" class="board-light"/><rect x="200" y="160" width="40" height="40" class="board-dark"/><rect x="240" y="160" width="40" height="40" class="board-light"/><rect x="280" y="160" width="40" height="40" class="board-dark"/>
+    <rect x="0" y="200" width="40" height="40" class="board-dark"/><rect x="40" y="200" width="40" height="40" class="board-light"/><rect x="80" y="200" width="40" height="40" class="board-dark"/><rect x="120" y="200" width="40" height="40" class="board-light"/><rect x="160" y="200" width="40" height="40" class="board-dark"/><rect x="200" y="200" width="40" height="40" class="board-light"/><rect x="240" y="200" width="40" height="40" class="board-dark"/><rect x="280" y="200" width="40" height="40" class="board-light"/>
+    <rect x="0" y="240" width="40" height="40" class="board-light"/><rect x="40" y="240" width="40" height="40" class="board-dark"/><rect x="80" y="240" width="40" height="40" class="board-light"/><rect x="120" y="240" width="40" height="40" class="board-dark"/><rect x="160" y="240" width="40" height="40" class="board-light"/><rect x="200" y="240" width="40" height="40" class="board-dark"/><rect x="240" y="240" width="40" height="40" class="board-light"/><rect x="280" y="240" width="40" height="40" class="board-dark"/>
+    <rect x="0" y="280" width="40" height="40" class="board-dark"/><rect x="40" y="280" width="40" height="40" class="board-light"/><rect x="80" y="280" width="40" height="40" class="board-dark"/><rect x="120" y="280" width="40" height="40" class="board-light"/><rect x="160" y="280" width="40" height="40" class="board-dark"/><rect x="200" y="280" width="40" height="40" class="board-light"/><rect x="240" y="280" width="40" height="40" class="board-dark"/><rect x="280" y="280" width="40" height="40" class="board-light"/>
 
     <rect x="0" y="0" width="320" height="320" class="board-border"/>
 
@@ -101,7 +130,7 @@
     <text x="20" y="20" class="piece">♜</text>
     <text x="60" y="20" class="piece knight-b8">♞</text>
     <text x="100" y="20" class="piece">♝</text>
-    <text x="140" y="20" class="piece">♛</text>
+    <text x="140" y="20" class="piece queen-d8">♛</text>
     <text x="180" y="20" class="piece">♚</text>
     <text x="220" y="20" class="piece">♝</text>
     <text x="260" y="20" class="piece">♞</text>
@@ -109,10 +138,10 @@
 
     <text x="20" y="60" class="piece">♟</text>
     <text x="60" y="60" class="piece">♟</text>
-    <text x="100" y="60" class="piece pawn-c7">♟</text>
+    <text x="100" y="60" class="piece">♟</text>
     <text x="140" y="60" class="piece">♟</text>
-    <text x="180" y="60" class="piece">♟</text>
-    <text x="220" y="60" class="piece">♟</text>
+    <text x="180" y="60" class="piece pawn-e7">♟</text>
+    <text x="220" y="60" class="piece pawn-f7">♟</text>
     <text x="260" y="60" class="piece">♟</text>
     <text x="300" y="60" class="piece">♟</text>
 
@@ -123,7 +152,7 @@
     <text x="140" y="260" class="piece">♙</text>
     <text x="180" y="260" class="piece pawn-e2">♙</text>
     <text x="220" y="260" class="piece">♙</text>
-    <text x="260" y="260" class="piece">♙</text>
+    <text x="260" y="260" class="piece pawn-g2">♙</text>
     <text x="300" y="260" class="piece">♙</text>
 
     <text x="20" y="300" class="piece">♖</text>
@@ -131,11 +160,17 @@
     <text x="100" y="300" class="piece">♗</text>
     <text x="140" y="300" class="piece">♕</text>
     <text x="180" y="300" class="piece">♔</text>
-    <text x="220" y="300" class="piece">♗</text>
+    <text x="220" y="300" class="piece bishop-f1">♗</text>
     <text x="260" y="300" class="piece knight-g1">♘</text>
-    <text x="300" y="300" class="piece">♖</text>
+    <text x="300" y="300" class="piece rook-h1">♖</text>
+  </g>
+
+  <!-- Checkmate Overlay Banner -->
+  <g class="checkmate-banner" transform="translate(60, 195)">
+    <rect width="280" height="50" class="banner-bg" />
+    <text x="140" y="31" class="banner-text">♟️ SKAKMAT / CHECKMATE! ♟️</text>
   </g>
 
   <!-- Footer Subtitle -->
-  <text x="200" y="402" class="sub">🤖 Pure SVG &amp; CSS Animation — Auto Tactical Sicilian Opening</text>
+  <text x="200" y="425" class="sub">🤖 Pure SVG &amp; CSS Animation — Full Match to Checkmate</text>
 </svg>
