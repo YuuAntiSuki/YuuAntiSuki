@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Location-Bekasi-blue?style=for-the-badge&logo=googlemaps" />
+  <img src="https://img.shields.io/badge/Location-Bogor-blue?style=for-the-badge&logo=googlemaps" />
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
   <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 </p>
@@ -24,7 +24,7 @@
 ```text
 ┌──────────────────────────────────────────────────────────────┐
 │  Hi, I'm Wahyu! 🕹️                                           │
-│  Software & Game QA Specialist based in Bekasi, Indonesia.   │
+│  Software & Game QA Specialist based in Bogor, Indonesia.   │
 │  Passionate about breaking software to make it perfect!      │
 └──────────────────────────────────────────────────────────────┘
 🎮 Main Focus: Quality Assurance (QA) untuk Game & Aplikasi Software (Testing, Bug Hunting, & Security).
