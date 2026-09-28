@@ -18,7 +18,14 @@
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
   <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 </p>
-
+<!-- Badges Games I Play -->
+<p align="center">
+  <img src="https://img.shields.io/badge/🎮_Games_I_Play-111111?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Battlefield_2-C8102E?style=for-the-badge&logo=ea&logoColor=white" />
+  <img src="https://img.shields.io/badge/Battlefield_1-FF4500?style=for-the-badge&logo=ea&logoColor=white" />
+  <img src="https://img.shields.io/badge/Battlefield_V-00A4EF?style=for-the-badge&logo=ea&logoColor=white" />
+  <img src="https://img.shields.io/badge/Left_4_Dead_2-8B0000?style=for-the-badge&logo=steam&logoColor=white" />
+</p>
 <!-- Pembatas Lampu RGB 1 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
