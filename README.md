@@ -76,3 +76,16 @@ const me = {
 
 <!-- Pembatas Lampu RGB Light -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- Pembatas Lampu RGB Light -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<details>
+  <summary><b>🛠️ Tech Stack &amp; Marketing Tools</b></summary>
+  <br />
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+    <img src="https://img.shields.io/badge/Prompt_Engineering-00F0FF?style=for-the-badge&logo=openai&logoColor=black" />
+    <img src="https://img.shields.io/badge/Meta_Ads-0467DF?style=for-the-badge&logo=meta&logoColor=white" />
+  </p>
+</details>
