@@ -20,7 +20,7 @@
 
 ```text
 ┌──────────────────────────────────────────────────────────────┐
-│  Hi, I'm Wahyu!                                              │
-│  Software & Game QA Specialist based in Bogor, Indonesia.    │
+│  Hi, I'm Wahyu! 🕹️                                           │
+│  Software & Game QA Specialist based in Bogor, Indonesia.   │
 │  Passionate about breaking software to make it perfect!      │
 └──────────────────────────────────────────────────────────────┘
