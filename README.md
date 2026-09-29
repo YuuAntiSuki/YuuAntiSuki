@@ -87,6 +87,10 @@
   &nbsp;&nbsp;
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=YuuAntiSuki&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
 </p>
+<!-- GITHUB STREAK STATS -->
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=YuuAntiSuki&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak Stats" />
+</p>
 <!-- Pembatas Lampu RGB -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
