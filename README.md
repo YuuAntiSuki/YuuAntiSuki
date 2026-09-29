@@ -6,7 +6,7 @@
 
 <!-- Typing SVG -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F70000&center=true&vCenter=true&width=650&height=50&lines=Selamat+datang+Cuy+Gwe+Wahyu;Gw+suka+membuat+Apps;Yok+Buat+Deal+Terbaik+Lo+Dengan+Gw" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F70000&center=true&vCenter=true&width=650&height=50&lines=Selamat+datang+Cuy+Gwe+Wahyu;Gw+suka+membuat+Tools+Berguna+yang+Gw+Build+Apps;Yok+Buat+Deal+Terbaik+Lo+Dengan+Gw" alt="Typing SVG" />
 </p>
 
 <!-- Log Visitor & Follower Counter -->
