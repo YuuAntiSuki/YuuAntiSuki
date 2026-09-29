@@ -68,6 +68,7 @@ const me = {
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <details>
+  
 <!-- Judul UMAMUSUME LOVERS -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=1&pause=1000&color=FF0055&center=true&vCenter=true&width=430&height=50&lines=UMAMUSUME+LOVERS" alt="UMAMUSUME LOVERS" />
