@@ -1,0 +1,15 @@
+name: Generate Pacman Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Jalan otomatis setiap hari
+  workflow_dispatch: # Bisa dijalankan manual
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: marcelo-ribeiro/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
