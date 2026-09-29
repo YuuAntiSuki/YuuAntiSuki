@@ -81,6 +81,15 @@
 <!-- Pembatas Lampu RGB -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<!-- GITHUB STATS & TOP LANGUAGES -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YuuAntiSuki&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub Stats" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YuuAntiSuki&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
+</p>
+<!-- Pembatas Lampu RGB -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 <!-- ANIMASI JUDUL: MORE ABOUT ME -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=1&pause=1000&color=00F0FF&center=true&vCenter=true&width=430&height=50&lines=MORE+ABOUT+ME;UMAMUSUME+LOVERS;CHESS+TACTICIAN" alt="MORE ABOUT ME" />
