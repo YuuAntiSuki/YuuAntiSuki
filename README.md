@@ -118,7 +118,7 @@
 
 <!-- PACMAN CONTRIBUTION GRAPH -->
 <p align="center">
-  <img src="https://pacman-contributions.vercel.app/api?username=YuuAntiSuki&theme=dark" alt="Pacman Contribution Graph" />
+  <img src="https://raw.githubusercontent.com/YuuAntiSuki/YuuAntiSuki/output/pacman-dark.svg" alt="Pacman Contribution Graph" />
 </p>
 
 <!-- Pembatas Lampu RGB Bawah -->
