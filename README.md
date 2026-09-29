@@ -15,23 +15,6 @@
   <img src="https://img.shields.io/github/followers/YuuAntiSuki?style=flat-square&logo=github&label=followers&color=blueviolet" alt="Followers" />
 </p>
 
-<!-- Badges Tech -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Location-Bogor-blue?style=for-the-badge&logo=googlemaps" />
-  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
-</p>
-
-<!-- Badges Games I Play -->
-<p align="center">
-  <img src="https://img.shields.io/badge/🎮_Games_I_Play-111111?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Battlefield_2-C8102E?style=for-the-badge&logo=ea&logoColor=white" />
-  <img src="https://img.shields.io/badge/Battlefield_1-FF4500?style=for-the-badge&logo=ea&logoColor=white" />
-  <img src="https://img.shields.io/badge/Battlefield_V-00A4EF?style=for-the-badge&logo=ea&logoColor=white" />
-  <img src="https://img.shields.io/badge/Left_4_Dead_2-8B0000?style=for-the-badge&logo=steam&logoColor=white" />
-</p>
-
 <!-- Pembatas Lampu RGB -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -54,15 +37,34 @@
 <!-- Pembatas Lampu RGB -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- Tech Stack & Tools (LANGSUNG KELIATAN, GAK ADA DETAILS) -->
-<h3 align="center">🛠️ Tech Stack &amp; Tools</h3>
+<!-- Tech Stack & Tools -->
+<h2 align="center">🛠️ Tech Stack &amp; Tools</h2>
+
+<h4 align="center">🎨 Frontend</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
+
+<h4 align="center">⚙️ Backend</h4>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+</p>
+
+<h4 align="center">🚀 Vibe Coding &amp; Development Tools</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_AI_Studio-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+</p>
+
+<h4 align="center">🤖 AI Assistants</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white" />
 </p>
 
 <!-- Pembatas Lampu RGB -->
@@ -73,7 +75,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=1&pause=1000&color=00F0FF&center=true&vCenter=true&width=430&height=50&lines=MORE+ABOUT+ME;UMAMUSUME+LOVERS;CHESS+TACTICIAN" alt="MORE ABOUT ME" />
 </p>
 
-<!-- BAGIAN UMAMUSUME (LANGSUNG KELIATAN) -->
+<!-- BAGIAN UMAMUSUME -->
 <p align="center">
   <img src="https://media1.tenor.com/m/UKcb7FZdqa0AAAAd/umamusume-special-week.gif" width="150px" alt="Special Week Merah" />
   &nbsp;&nbsp;&nbsp;&nbsp;
@@ -85,7 +87,7 @@
 <!-- Pembatas Lampu RGB -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- BAGIAN CATUR (LANGSUNG KELIATAN) -->
+<!-- BAGIAN CATUR -->
 <p align="center">
   <img src="./chess.svg" width="380px" alt="My Favorite Game Chess" />
 </p>
@@ -93,7 +95,7 @@
 <!-- Pembatas Lampu RGB -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- BAGIAN SPOTIFY / DISCORD (LANGSUNG KELIATAN) -->
+<!-- BAGIAN SPOTIFY / DISCORD -->
 <p align="center">
   <a href="https://discord.com/users/737506130913132554">
     <img src="https://lanyard.cnrad.dev/api/737506130913132554?theme=dark&bg=0d1117&borderRadius=10px&showAnimatedAvatar=true" alt="Discord & Spotify Status" />
