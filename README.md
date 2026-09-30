@@ -91,6 +91,10 @@
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=YuuAntiSuki&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak Stats" />
 </p>
+<!-- WAKATIME STATS CARD -->
+<p align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api/wakatime?username=YuuAntiSuki&theme=tokyonight&hide_border=true" alt="WakaTime Stats" />
+</p>
 <!-- Pembatas Lampu RGB -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
