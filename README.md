@@ -92,6 +92,18 @@
   <img src="https://streak-stats.demolab.com?user=YuuAntiSuki&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak Stats" />
 </p>
 <!--START_SECTION:waka-->
+
+```txt
+From: 24 September 2026 - To: 29 September 2026
+
+Total Time: 1 hr 9 mins
+
+JavaScript   26 mins               ░░░░░░░░░████████████████   37.81 %
+Other        23 mins               ░░░░░░░░█████████████████   33.79 %
+HTML         17 mins               ░░░░░░███████████████████   25.47 %
+Text         2 mins                ░████████████████████████   02.92 %
+```
+
 <!--END_SECTION:waka-->
 <!-- Pembatas Lampu RGB -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
