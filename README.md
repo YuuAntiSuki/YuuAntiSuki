@@ -126,7 +126,7 @@
 
 <!-- BAGIAN SPOTIFY / DISCORD -->
 <p align="center">
-  <img src="https://lastfm-readme-pi.vercel.app/api/scrobbling?username=YuuAntiSuki_&theme=dark" alt="Now Playing" />
+  <img src="https://lastfm-status.vercel.app/api/status?username=YuuAntiSuki_&theme=dark" alt="Now Playing" />
 </p>
 <!-- Pembatas Lampu RGB Bawah -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
