@@ -81,17 +81,20 @@
 <!-- Pembatas Lampu RGB -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- GITHUB STATS & TOP LANGUAGES -->
+<!-- 1. GITHUB STATS & MOST USED LANGUAGES -->
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/wakatime?username=4067dd59-cfd1-4985-abdb-8c9123b4ebd7&theme=tokyonight&hide_border=true&cache_seconds=60" alt="WakaTime Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YuuAntiSuki&theme=tokyonight&show_icons=true&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YuuAntiSuki&theme=tokyonight&layout=compact&hide_border=true" height="165" />
 </p>
-<!-- GITHUB STREAK STATS -->
+
+<!-- 2. STREAK STATS -->
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=YuuAntiSuki&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YuuAntiSuki&theme=tokyonight&hide_border=true" />
 </p>
-<!-- WAKATIME STATS CARD -->
+
+<!-- 3. WAKATIME STATS -->
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/wakatime?username=4067dd59-cfd1-4985-abdb-8c9123b4ebd7&theme=tokyonight&hide_border=true" alt="WakaTime Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/wakatime?username=4067dd59-cfd1-4985-abdb-8c9123b4ebd7&theme=tokyonight&hide_border=true&cache_seconds=60" />
 </p>
 <!-- Pembatas Lampu RGB -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
