@@ -126,7 +126,7 @@
 
 <!-- BAGIAN SPOTIFY / DISCORD -->
 <p align="center">
-  <img src="https://spotify-widget-weld.vercel.app/api?user=YuuAntiSuki_" alt="Now Playing" />
+  <img src="https://spotify-widget-weld.vercel.app/api?user=YuuAntiSuki_&v=2" alt="Now Playing" />
 </p>
 <!-- Pembatas Lampu RGB Bawah -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
