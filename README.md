@@ -83,9 +83,7 @@
 
 <!-- GITHUB STATS & TOP LANGUAGES -->
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=YuuAntiSuki&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub Stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=YuuAntiSuki&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/wakatime?username=4067dd59-cfd1-4985-abdb-8c9123b4ebd7&theme=tokyonight&hide_border=true&cache_seconds=60" alt="WakaTime Stats" />
 </p>
 <!-- GITHUB STREAK STATS -->
 <p align="center">
